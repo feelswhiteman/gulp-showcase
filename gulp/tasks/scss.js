@@ -4,7 +4,7 @@ import rename from "gulp-rename";
 
 import cleanCss from "gulp-clean-css";
 import webpcss from "gulp-webpcss";
-import autoPrefixer from "gulp-autoprefixer";
+import autoprefixer from "gulp-autoprefixer";
 import groupCssMediaQueries from "gulp-autoprefixer";
 
 const sass = gulpSass(dartSass);
@@ -34,7 +34,7 @@ export const scss = () => {
             })
         )
         .pipe(
-            autoPrefixer({
+            autoprefixer({
                 grid: true,
                 overrideBrowserslist: ["last 3 versions"],
                 cascade: true,

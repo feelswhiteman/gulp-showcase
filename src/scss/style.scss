@@ -5,3 +5,15 @@ body {
     }
     background: ("@img/shyga-the-sunlight-mound.jpg") 0 0 no-repeat;
 }
+
+@media (max-width: 768px) {
+    span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: aqua;
+    }
+}
